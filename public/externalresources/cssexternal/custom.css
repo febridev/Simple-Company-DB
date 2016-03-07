@@ -1,0 +1,104 @@
+.headnewmessage{
+	-webkit-border-top-left-radius: 5px !important;
+	-webkit-border-top-right-radius: 5px !important;
+	-moz-border-radius-topleft: 5px !important;
+	-moz-border-radius-topright: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	background-color:rgba(0,0,0,0.6) !important;
+	padding:5px 5px 1px 5px !important;
+	color:rgba(255,255,255,1) !important;
+	font-size:15px !important;	
+}
+
+
+
+.layout{
+	display: table;
+	width: 100%;
+	zoom:1;
+	margin: 0px 10px 20px 0px;
+}
+
+.layout .full {
+	display: table-row;
+	
+}
+.layout .half
+{ 
+	display: table-cell;
+	width: 50%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.layout .thirtypercent
+{ 
+	display: table-cell;
+	width: 30%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.fullarea{
+	width: 100%;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+
+.fullarea .heightextarea{
+	height: 35%;
+	z-index: 0;
+}
+
+.fullarea .button{
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	bottom: 5rem;
+	border: 1px solid #ccc;
+    border-radius: 100% !important;
+    color: #fff;
+    outline: #3498db !important;
+   	background: #3498db !important;
+}
+
+.fullarea .button:hover,.button:active,.button.focus{
+	outline: #3498db !important;
+	width: 110px;
+	height: 110px;
+	z-index: 1;
+	bottom: 5.5rem;
+	color: #fff;
+ 	background: #3498db !important;
+	-webkit-transition: all 50ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg); 
+}
+
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px !important; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px !important; 
+}

@@ -1,0 +1,48 @@
+This File I Create Because to make me remember what type of format i write in this entire code in here 
+
+Format I create : 
+
+1. Object Of Class/Model name will start with First Letter Capital and every first letter of word will be capital word
+	ex: 
+
+	I have Class/Model IndustryType so Object of this model will be created like this :
+	------------------------------------------------------------------------------------
+	
+	$IndustryType = new IndustryType;
+	
+	------------------------------------------------------------------------------------
+
+2. Object Of Data name will be start with FirstLetter lowercase and every first letter of word will be capital after first word
+	ex: 
+	I have input/request or something data so i will write it like this : 
+	------------------------------------------------------------------------------------
+	
+	$userID = $User->id; 
+	+++++++++++++++++++++
+	$input = Input::all();
+	++++++++++++++++++++++
+	$dataOfSomething = '2';
+
+	------------------------------------------------------------------------------------
+
+3. Function name formated with every first word will be Capital and if more than one word so we use UnderScore for 	Seperate that name 
+	ex:
+	I have function name Industry and IndustryAdd so will write it like this : 
+	------------------------------------------------------------------------------------
+
+	public function Industry()
+	{}
+
+	++++++++++++++++++++++++++++++++++++
+
+	public function Industry_Saved()
+	{}
+
+	++++++++++++++++++++++++++++++++++++
+
+	public function Industry_Saved_Adders()
+	{}
+
+	-------------------------------------------------------------------------------------
+
+4. Route name all will be lowercase 

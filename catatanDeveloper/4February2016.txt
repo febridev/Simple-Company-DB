@@ -1,0 +1,2 @@
+==> 09.54 
+jadi sampai view setiap data ,sekarang mau lanjut ke modifnya 
